@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.2rem;
+}
+.main{
+    border: 3px;
+    border-color: black;
+    border-radius: 5px;
+    width:400px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    /* normalde 50% margin yaparsan divin sol üst köşesi baz alınır. Ama transform tagiyle sol üst köşeyi değil divin merkezini baz almasını sağlarsın.*/
+}
+
+.hesapmakinesi{
+    text-align: center;
+    background-color: white;
+    height: 40px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    width: 460px;
+    border: 3px;
+}
+
+ /*.main-input{
+    width: 70%;
+    font-size: 4rem;
+    height: 70px;
+    border: none;
+    background-color: black;
+    color: azure;
+    text-align: right;
+    padding-right: 20px;
+} 
+
+.top{
+    width: 70%;
+}
+
+.top-left{
+    width: 30%;
+} */
+
+.button{
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 3px;
+    border: 3px;
+    border-color: blueviolet;
+    background-color: transparent;
+    font-size:2.5rem;
+    color: black;
+    
+}
+ .calculator-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-template-columns: 28% 28% 28% 16%;
+    width: 100%;
+    margin-top: 10px;
+ }
+
+ .top{
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 84% 16%;
+    height: 40px;
+    margin-top: 20px;
+ }
+
+
+ /*1 fr means 1 fragment her biri bir bölüm kaplayacak*/
+
+ .all{
+    border: 2px;
+    border-color: black;
+ }
