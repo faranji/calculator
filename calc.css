@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.screen{
+    background-color: white;
+}
+
 html{
     font-size: 10px;
 }
@@ -29,7 +33,7 @@ body{
     padding-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
-    width: 460px;
+    width: 450px;
     border: 3px;
 }
 
@@ -66,15 +70,15 @@ body{
  .calculator-buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-columns: 28% 28% 28% 16%;
-    width: 100%;
+    width: 95%;
     margin-top: 10px;
  }
 
  .top{
     display: grid;
-    grid-gap: 60px;
+    grid-gap: 10px;
     grid-template-columns: 84% 16%;
     height: 40px;
     margin-top: 20px;
@@ -87,3 +91,4 @@ body{
     border: 2px;
     border-color: black;
  }
+
